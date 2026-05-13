@@ -1,0 +1,128 @@
+EXEMPLOS
+
+Exemplo 1 — Declaração de variáveis, leitura e escrita
+programa
+inteiro idade.
+decimal altura.
+texto nome.
+escreva("Digite seu nome").
+leia(nome).
+escreva("Digite sua idade").
+leia(idade).
+escreva("Digite sua altura").
+leia(altura).
+escreva("Nome informado").
+escreva(nome).
+escreva("Idade informada").
+escreva(idade).
+escreva("Altura informada").
+escreva(altura).
+fimprograma
+
+
+
+Exemplo 2 — Estrutura condicional
+programa
+inteiro a.
+inteiro b.
+inteiro maior.
+escreva("Digite A").
+leia(a).
+escreva("Digite B").
+leia(b).
+se(a > b) {
+maior := a.
+} senao {
+maior := b.
+}
+escreva("Maior valor").
+escreva(maior).
+fimprograma
+
+
+
+Exemplo 3 — Estrutura condicional encadeada
+programa
+inteiro nota.
+escreva("Digite a nota").
+leia(nota).
+se(nota >= 7) {
+escreva("Aprovado").
+} senaose(nota >= 5) {
+escreva("Recuperacao").
+} senao {
+escreva("Reprovado").
+}
+fimprograma
+
+
+
+Exemplo 4 — Estrutura de repetição - Enquanto
+programa
+inteiro contador.
+contador := 1.
+enquanto(contador <= 5) {
+escreva(contador).
+contador := contador + 1.
+}
+fimprograma
+
+
+
+Exemplo 5 — Estrutura de repetição - Execute … Enquanto
+programa
+inteiro numero.
+numero := 1.
+execute {
+escreva(numero).
+numero := numero + 1.
+} enquanto(numero <= 5).
+fimprograma
+
+
+
+Exemplo 6 — Estrutura de repetição - Para
+programa
+inteiro soma.
+soma := 0.
+para(inteiro i := 1. i <= 5. i := i + 1) {
+soma := soma + i.
+}
+escreva("Resultado da soma").
+escreva(soma).
+fimprograma
+
+
+
+Exemplo 7 — Laços encadeados
+programa
+inteiro i.
+inteiro j.
+para(inteiro i := 1. i <= 3. i := i + 1) {
+para(inteiro j := 1. j <= 2. j := j + 1) {
+escreva(i).
+escreva(j).
+}
+}
+fimprograma
+
+
+
+
+Exemplo 8 — Expressões matemáticas com precedência
+programa
+inteiro a.
+inteiro b.
+inteiro resultado.
+a := 10.
+b := 5.
+resultado := a + b * 2.
+escreva("Resultado 1").
+escreva(resultado).
+resultado := (a + b) * 2.
+escreva("Resultado 2").
+escreva(resultado).
+fimprograma
+
+
+

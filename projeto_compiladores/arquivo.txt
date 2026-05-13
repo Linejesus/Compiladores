@@ -1,0 +1,17 @@
+programa
+inteiro idade.
+decimal altura.
+texto nome.
+escreva("Digite seu nome").
+leia(nome).
+escreva("Digite sua idade").
+leia(idade).
+escreva("Digite sua altura").
+leia(altura).
+escreva("Nome informado").
+escreva(nome).
+escreva("Idade informada").
+escreva(idade).
+escreva("Altura informada").
+escreva(altura).
+fimprograma
